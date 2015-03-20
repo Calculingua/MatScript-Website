@@ -89,7 +89,7 @@ h2.subtitle {
         padding: 0;
     }
 
-    input {
+    input.email {
         margin: 0;
         padding: 0 0 0 10px;
         float: left;
@@ -119,6 +119,9 @@ h2.subtitle {
         &:active {
             background: darken($reddish, 5%);
         }
+    }
+    #mce-responses {
+        color: $orangish;
     }
 }
 

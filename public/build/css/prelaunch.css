@@ -97,7 +97,7 @@ h2.subtitle {
   width: 500px;
   padding: 0;
 }
-.landing-contact input {
+.landing-contact input.email {
   margin: 0;
   padding: 0 0 0 10px;
   float: left;
@@ -123,6 +123,9 @@ h2.subtitle {
 }
 .landing-contact button:active {
   background: #ed2d21;
+}
+.landing-contact #mce-responses {
+  color: #e67e22;
 }
 
 .social-icons {
